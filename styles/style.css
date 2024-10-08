@@ -59,7 +59,7 @@
 
 .cover {
   display: flex;
-  margin-bottom: 179px;
+  margin-bottom: 181px;
   background-image: url("../images/cover.jpg");
   background-position: center;
   background-size: cover;
@@ -109,7 +109,7 @@
 }
 
 .cover__description-text {
-  margin: 0 79px;
+  margin: 0 78px;
   color: #fff;
   font-size: 22px;
   text-transform: uppercase;
@@ -120,7 +120,7 @@
   align-self: center;
   margin-right: 50px;
   border: solid 1px currentColor;
-  padding: 12px 32px 11px 31px;
+  padding: 11px 31px;
   color: #fff;
   font-family: Raleway, sans-serif;
   font-weight: 500;
