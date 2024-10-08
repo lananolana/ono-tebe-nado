@@ -1,5 +1,4 @@
 .heading {
-  height: 47px;
   font-weight: 700;
   font-size: 40px;
   line-height: 47px;
@@ -26,7 +25,6 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  height: 105px;
   margin: 92px 24px 96px;
   padding: 0 26px;
 }
@@ -43,12 +41,11 @@
 }
 
 .header__logo {
-  position: absolute;
-  left: 460px;
   display: block;
   width: 135px;
   height: 105px;
   border-bottom: none;
+  transform: translateX(-75px);
 }
 
 .address {
@@ -64,19 +61,18 @@
   display: flex;
   margin-bottom: 179px;
   background-image: url("../images/cover.jpg");
+  background-position: center;
   background-size: cover;
 }
 
 .cover__title-wrapper {
   width: 1000px;
-  height: 355px;
   margin: 165px 50px 135px;
 }
 
 .cover__title {
   display: grid;
   row-gap: 20px;
-  height: 355px;
   color: #fff;
   font-weight: 700;
   font-size: 100px;
@@ -123,9 +119,10 @@
 .bet-button {
   align-self: center;
   margin-right: 50px;
-  border: solid 1px #fff;
+  border: solid 1px currentColor;
   padding: 12px 32px 11px 31px;
   color: #fff;
+  font-family: Raleway, sans-serif;
   font-weight: 500;
   font-size: 22px;
   line-height: 26px;
@@ -135,7 +132,6 @@
 
 .lots {
   width: 1052px;
-  height: 692px;
   margin: 0 24px 146px;
 }
 
@@ -153,7 +149,7 @@
 }
 
 .lots__card-list-item {
-  background-position: 50%;
+  background-position: center;
   background-size: cover;
 }
 
@@ -162,7 +158,7 @@
   flex-direction: column;
   justify-content: space-between;
   width: 334px;
-  height: 563px;
+  min-height: 563px;
   padding: 51px 40px 48px;
   color: #fff;
 }
@@ -180,7 +176,6 @@
 }
 
 .card__title {
-  height: 110px;
   font-weight: 700;
   font-size: 22px;
   line-height: 26.4px;
@@ -196,7 +191,6 @@
 
 .lots__look-more-link {
   width: 192px;
-  height: 23px;
   margin-left: 40px;
   font-size: 20px;
   line-height: 23px;
@@ -208,11 +202,10 @@
   flex-direction: row;
   justify-content: space-between;
   width: 1052px;
-  height: 595px;
   margin: 0 24px 180px;
 }
 
-.about__first-column {
+.about__logo-column {
   flex-basis: 334px;
 }
 
@@ -222,7 +215,7 @@
   align-items: center;
   width: 240px;
   height: 240px;
-  margin: 35px 47px;
+  margin: 37px 47px;
   border-radius: 100%;
   background-color: black;
 }
@@ -233,7 +226,7 @@
 }
 
 .about__content {
-  margin-top: 136px;
+  margin-top: 138px;
   margin-left: 25px;
 }
 
@@ -255,7 +248,6 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: start;
-  height: 98px;
   margin: 180px 50px 88px;
 }
 
