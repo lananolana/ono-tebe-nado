@@ -4,7 +4,7 @@ A website for an auction of unconventional items that no one believed in.
 
 ## Repository
 
-The projects source code can be found here: [Ono tebe nado](https://github.com/lananolana/ono-tebe-nado).
+The project's source code can be found here: [Ono tebe nado](https://github.com/lananolana/ono-tebe-nado).
 
 ## Installation
 
